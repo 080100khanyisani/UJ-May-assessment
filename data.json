@@ -1,38 +1,55 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Khanyisani Kumalo",
+        "photo" : "my-picture/khanyisani-kumalo.jpg",
+        "phone" : "0836961010",
+        "qualification" : "BSc Applied Mathematics And Statistics",
+        "email" : "khanyisani1010@gmail.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University of Kwa-Zulu Natal",
+        "photo" : "my-picture/ukzn.jpg",
+        "description" : "I am passionate about using data to draw meaningful conclusions about the growth of a company. I studied Statistics and Applied Mathematics as my majors. I learned SAS and R-software in school, and I have obtained a certificate in Python Data Structures and SQL. I can do data analysis using Microsoft Excel. I enjoy learning new programming languages and expanding my toolkit for data analysis. I have excellent communication skills and the ability to work collaboratively with a team. I have good time management to help cope with multiple tasks and deadlines. I enjoy gaining insight from data and assisting in the development of actionable solutions and data-driven decisions, which I have noticed your company values as well. After learning Python, I became particularly interested in data science. I'm excited toput SAS to use in a more practical setting. I particularly admire your company's use of predictive analytics to cater to customers' needs instinctively."
     },
     "foreignLanguage" : {
-        "language" : "",
+        "name" : "Projects",
+        "language" : "Dutch",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "University Of KwaZulu Natal | Education Data",
+            "foreignLanguage" : "This learning management system that is akin to UKZN's Moodle website, was gathered from the Kalboard 360."
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Mock Project | Financial Analysis",
+            "foreignLanguage" : "A mock project of financial analysis using SQL without any data provided."
         }]
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+    "contactDetails": {
+        "name": "Contact info:",
+        "phone": "+27836961010",
+        "location": "21 Aida Avenue, Dewetshof, Johannesburg, 2198,South Africa",
+        "linkedin": "linkedin.com/in/khanyisanikhumalo-4170a9231"
+    },
+    "skills": {
+        "name": "Skills",
+        "SKILLS" : [
+            {
+                "one": "Genstat",
+                "two": "Microsoft Excel(data analysis)",
+                "three": "SQL",
+                "four": "R",
+                "five": "SAS"
+            }
+        ]
+    },
+    "languages": {
+        "name": "Languages",
+        "LANGUAGES" : [
+            {
+                "one": "IsiZulu",
+                "two": "IsiXhosa",
+                "three": "English"
+            }
+        ]
+    }
+        
 }

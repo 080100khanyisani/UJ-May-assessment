@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h1 class="name-text section">{{user.fullName}}</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6 l12">
+                <img class="picture1" src="{{user.photo}}" alt="Khanyisani's picture">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="email">{{user.qualification}}</h3>
+                <!-- <h3 class="no">{{user.phone}}</h3> -->
+                <!-- <h3 class="email">{{user.email}}</h3> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2>{{education.institutionName}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 m4">
+                <img src="{{education.photo}}" alt="ukzn picture">
+            </div>
+            <div class="col s6 m8">
+                <h5 class="description">{{education.description}}</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="lang">{{foreignLanguage.name}}</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <table class="table">
+                {{#each foreignLanguage.phrases}}
+                <tr>
+                    <td>{{englishPhrase}}</td>
+                    <td>{{foreignLanguage}}</td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>{{skills.name}}</h2>
+                <ul>
+                    {{#each skills.SKILLS}}
+                    <li>{{one}}</li>
+                    <li>{{two}}</li>
+                    <li>{{three}}</li>
+                    <li>{{four}}</li>
+                    <li>{{five}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>{{languages.name}}</h2>
+                <ul>
+                    {{#each languages.LANGUAGES}}
+                    <li>{{one}}</li>
+                    <li>{{two}}</li>
+                    <li>{{three}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="datails">{{contactDetails.name}}</h2>
+                <h3 class="details">{{contactDetails.phone}}</h3>
+                <h3 class="details">{{contactDetails.location}}</h3>
+                <h3 class="details">{{contactDetails.linkedin}}</h3>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
