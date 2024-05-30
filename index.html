@@ -7,9 +7,9 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
-        .picture1 {
+        /* .picture1 {
         margin-left: 800px;
-        }
+        } */
 
         body {
         background-color: antiquewhite;
@@ -28,8 +28,8 @@
        }
 
       .description{
-      margin-left: 300px;
-      margin-top: -150px;
+      /* margin-left: 300px; */
+      margin-top: -10px;
       }
 
       .lang{
@@ -43,9 +43,9 @@
       }
 
       @media (max-width: 600px) {
-        .picture1{
+        /* .picture1{
         margin-left: 4em;
-        }
+        } */
 
        .no {
         margin-left: 4em;
@@ -56,7 +56,7 @@
        }
 
        .description{
-        margin-top: 20px;
+        margin-top: -20px;
         margin-left: -1px;
         /* width: 100%; */
         }
@@ -64,7 +64,7 @@
        .details{
         margin-right: 4em;
         }
-}
+    }
 
     </style>
 </head>
@@ -77,11 +77,11 @@
             </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col s12 m6 l12">
                 <img class="picture1" src="{{user.photo}}" alt="Khanyisani's picture">
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col">
@@ -98,12 +98,21 @@
                 <h2>{{education.institutionName}}</h2>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col s6 m4">
                 <img src="{{education.photo}}" alt="ukzn picture">
-            </div>
+            </div> -->
             <div class="col s6 m8">
                 <h5 class="description">{{education.description}}</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2>{{experience.name}}</h2>
+                <h3>{{experience.company}}</h3>
+                <h5 class="description">{{experience.description}}</h5>
+                <h5 class="description">{{experience.link}}</h5>
             </div>
         </div>
         <div class="row">

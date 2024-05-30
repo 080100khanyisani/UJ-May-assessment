@@ -50,6 +50,12 @@
                 "three": "English"
             }
         ]
+    },
+    "experience":{
+        "name": "Work Experience",
+        "company": "UJ/Accenture Programme",
+        "description": "Through this programme I have gained new skills including HTML, CSS and JavaScript which have proven to be helpful to me and I am currently working on a project I cannot disclose since it is still in progress which serves as proof of my skills. For some little proof I have attached a URL into my GitHub repostory which will help.",
+        "link": "https://github.com/080100khanyisani"
     }
         
 }
