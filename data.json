@@ -1,14 +1,14 @@
 {
     "user" : {
         "fullName" : "Khanyisani Kumalo",
-        "photo" : "my-picture/khanyisani-kumalo.jpg",
+        "photo" : "./khanyisani-kumalo.jpg",
         "phone" : "0836961010",
         "qualification" : "BSc Applied Mathematics And Statistics",
         "email" : "khanyisani1010@gmail.com"
     },
     "education" : {
         "institutionName" : "University of Kwa-Zulu Natal",
-        "photo" : "my-picture/ukzn.jpg",
+        "photo" : "./ukzn.jpg",
         "description" : "I am passionate about using data to draw meaningful conclusions about the growth of a company. I studied Statistics and Applied Mathematics as my majors. I learned SAS and R-software in school, and I have obtained a certificate in Python Data Structures and SQL. I can do data analysis using Microsoft Excel. I enjoy learning new programming languages and expanding my toolkit for data analysis. I have excellent communication skills and the ability to work collaboratively with a team. I have good time management to help cope with multiple tasks and deadlines. I enjoy gaining insight from data and assisting in the development of actionable solutions and data-driven decisions, which I have noticed your company values as well. After learning Python, I became particularly interested in data science. I'm excited toput SAS to use in a more practical setting. I particularly admire your company's use of predictive analytics to cater to customers' needs instinctively."
     },
     "foreignLanguage" : {
